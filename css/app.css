@@ -1,0 +1,129 @@
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.visuallyhidden {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0); }
+
+a {
+  color: #00abed; }
+
+p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto; }
+
+html, body {
+  font-family: "EB Garamond", Baskerville, Georgia, serif;
+  font-weight: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: #444444;
+  text-align: center;
+  font-size: 18px; }
+
+::-webkit-selection {
+  background: #00abed;
+  color: white;
+  text-shadow: none; }
+
+::-moz-selection {
+  background: #00abed;
+  color: white;
+  text-shadow: none; }
+
+::selection {
+  background: #00abed;
+  color: white;
+  text-shadow: none; }
+
+#photos .slides .photo img {
+  margin-bottom: -5px; }
+#photos .slides img {
+  max-width: 85%; }
+#photos .slide-control {
+  position: absolute;
+  display: none;
+  top: 50%;
+  margin-top: -20px;
+  text-indent: -9999em;
+  overflow: hidden;
+  height: 81px;
+  padding: 40px;
+  width: 41px; }
+#photos .slide-control:hover {
+  cursor: pointer;
+}
+  #photos .slide-control.slide-next {
+    right: 2%;
+    background: url("../img/next.png") no-repeat center center; }
+  #photos .slide-control.slide-prev {
+    left: 2%;
+    background: url("../img/prev.png") no-repeat center center; }
+#photos #navigator {
+  margin: 15px auto;
+  max-width: 1000px; }
+  #photos #navigator ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    #photos #navigator ul li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: inline-block; }
+      #photos #navigator ul li a {
+        display: block;
+        padding: 4px 8px; }
+
+#header #hgroup {
+  margin: 10px 0 20px; }
+  #header #hgroup #title {
+    font-family: "EB Garamond", Baskerville, Georgia, serif;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 45px;
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  #header #hgroup #subtitle {
+    font-family: "EB Garamond", Baskerville, Georgia, serif;
+    font-weight: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #999999;
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+#header #nav {
+  font-family: "EB Garamond", Baskerville, Georgia, serif;
+  font-weight: normal;
+  font-weight: 400;
+  margin-bottom: 15px; }
+  #header #nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    #header #nav ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0;
+      padding: 0; }
+      #header #nav ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 8px 15px;
+        font-size: 22px; }
+      #header #nav ul li.active {
+        color: #444444; }
+
+@media only screen and (min-width: 900px) {
+  #photos .slide-control {
+    display: block; } }
